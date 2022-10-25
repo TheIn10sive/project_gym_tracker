@@ -1,0 +1,7 @@
+{
+  "name": "gym.log",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
