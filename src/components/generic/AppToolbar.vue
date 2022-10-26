@@ -2,7 +2,7 @@
   <ion-toolbar>
     <ion-title>{{ title }}</ion-title>
     <ion-button
-      v-if="settings"
+      v-if="settings === 'true'"
       slot="end"
       fill="clear"
       size="small"
@@ -32,8 +32,8 @@ export default defineComponent({
       type: String,
     },
     settings: {
-      type: Boolean,
-      default: false,
+      type: String,
+      default: "false",
     },
   },
   components: {
