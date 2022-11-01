@@ -27,6 +27,10 @@ const routes: Array<RouteRecordRaw> = [
         path: "archive",
         component: () => import("@/views/archive/ArchivePage.vue"),
       },
+      {
+        path: "auth",
+        component: () => import("@/views/auth/AuthPage.vue"),
+      },
     ],
   },
 ];
