@@ -11,6 +11,7 @@
           <ion-item
             v-for="exercise of searchResults[letter]"
             :key="exercise.pk"
+            lines="none"
           >
             <ion-label>{{ exercise.fields.name }}</ion-label>
           </ion-item>
